@@ -1,12 +1,14 @@
 /*  your css code here. If applicable */
 .hero{
 	display:flex;
+	object-fit:cover;
 	justify-content:space-between;
 	align-items:center;
     background-color:rgb(223,213,217);
 	flex-wrap:wrap;
 	#card_img{
 		flex:2;
+		
 	}
 #card_content{
 	justify-content:center;
